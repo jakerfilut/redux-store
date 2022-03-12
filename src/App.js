@@ -15,11 +15,9 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        {/* <Switch> */}
         <Route path="/" exact component={ProductListing} />
         <Route path="/product/:productId" component={ProductDetails} />
         <Route>404 Not Found!</Route>
-        {/* </Switch> */}
       </Routes>
     </div>
   );
